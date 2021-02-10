@@ -13,7 +13,7 @@ Steps to build model:
 1. load data with the given labels. 
 2. All images have 3 channels with different sizes. Resize images with cv2 and greyscale it.
 3. Find the image distribution with bar chart.
-4. Reshape images and devide it in to train and validation images.
+4. Devide images in to train,validation, test images.
 5. Create image generator with augmentation. 
 6. Create model with different combinations of CONV2D, MAXPOOLING, DROPOUT,FLATTEN, DENSE Layer.
 7. Evaluate model
